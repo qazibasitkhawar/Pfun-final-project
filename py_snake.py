@@ -11,7 +11,7 @@ fetc = """SELECT * FROM
     """
 data = db.execute(fetc)
 for row in data:
-    level=row[0]                    #From External source
+    level=row[0]                    #From External source and website 
 
 #___________________________________________________
 
